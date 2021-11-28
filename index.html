@@ -1,0 +1,82 @@
+<html>
+<head>
+
+    <title>First Activity</title>
+</head>
+<body>
+    <h1>Open Console</h1>
+    <script>
+        console.log("I am Aanya");
+            var first_name="Aanya";
+            var last_name="Bhardwaj";
+            console.log(last_name);
+            
+            var full_name=first_name.concat(last_name);
+            console.log(full_name);
+            var length=full_name.length;
+            console.log(length);
+            var name_one="I am a pretty girl";
+            console.log(name_one);
+            name_one.replace("pretty","smart");
+            var replace_name=name_one.replace("pretty","smart");
+            console.log(replace_name);
+            var capital_name="AANYA";
+            var lowercase_name=capital_name.toLowerCase();
+            console.log(lowercase_name);
+            var small_name="ronit";
+            var uppercase_name=small_name.toUpperCase();
+            console.log(uppercase_name);
+            var square_root=Math.sqrt(16);
+            console.log(square_root);
+            var larger_number=Math.max(56,84);
+            console.log(larger_number);
+            var smaller_number=Math.min(9998364,9967354);
+            console.log(smaller_number);
+            var power_number=Math.pow(4,2);
+            console.log(power_number);
+            var power_number2=Math.pow(4,3);
+            console.log(power_number2);
+
+
+
+            var fruits= ["Orange","Apple","Watermelon"];
+            console.log(fruits);
+            var first_fruit=fruits[0];
+            console.log(first_fruit);
+            
+            var second_fruit=fruits[1];
+            console.log(second_fruit);
+            var length_of_the_array=fruits.length;
+            console.log(length_of_the_array);
+            var array_value="";
+            for (i=0; i<fruits.length; i++)
+            {
+                console.log(fruits[i]);
+                array_value=array_value+fruits[i]+"<br>";
+
+            }
+            fruits.push("mango");
+            console.log(fruits);
+            fruits.push("cherry");
+            console.log(fruits);
+            
+            var alphabets=["A","B","C","D","L","Y","G","S"];
+            console.log(alphabets);
+            alphabets.sort();
+            console.log(alphabets);
+            alphabets.reverse();
+            console.log(alphabets);
+
+            var numbers=["24","56","78","92","26"];
+            console.log(numbers);
+            var max_number=Math.max.apply(Math,numbers);
+            console.log(max_number);
+            var min_number=Math.min.apply(Math,numbers);
+            console.log(min_number);
+            </script>
+ document.getElementById("declaration_of_arrays").innerHTML=fruits;
+    
+
+</body>
+
+</html>
